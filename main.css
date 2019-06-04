@@ -284,3 +284,58 @@ a {
     padding: 0
   }
 }
+
+@media only screen and (max-width: 980px) {
+  .email {
+    height: 70vh;
+    flex-direction: column;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  h2 {
+    text-align: center;
+  }
+
+  #name {
+    font-size: 20vw;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  #moon {
+    width: 80vw;
+  }
+
+  .card {
+    width: 80vw;
+  }
+
+  #main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .modal-content {
+    height: 60vh;
+    padding: 5vw;
+    width: 80vw;
+  }
+
+  .show-modal h1 {
+    font-size: 15vw;
+    margin: 0;
+  }
+
+  .email {
+    height: 40vh;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+}
