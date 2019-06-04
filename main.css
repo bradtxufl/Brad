@@ -286,11 +286,28 @@ a {
 }
 
 @media only screen and (max-width: 980px) {
+
   .email {
-    height: 70vh;
+    height: 40vh;
     flex-direction: column;
     margin: 10px;
   }
+
+  .modal-content {
+    height: 60vh;
+    padding: 5vw;
+    width: 80vw;
+  }
+
+  .show-modal h1 {
+    font-size: 10vw;
+    margin: 0;
+  }
+
+  #at {
+    height: 13vmin;
+  }
+
 }
 
 @media only screen and (max-width: 450px) {
@@ -336,6 +353,10 @@ a {
     height: 40vh;
     flex-direction: column;
     margin: 10px;
+  }
+
+  #at {
+    height: 13vmin;
   }
 
 }
