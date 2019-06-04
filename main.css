@@ -359,4 +359,25 @@ a {
     height: 13vmin;
   }
 
+  #beach {
+    display: none;
+  }
+
+  #para {
+    height: 1vh;
+    background-color: rgba(9,43,129,1);
+    background-image: url('');
+  }
+
+  #para1 {
+    display: none;
+  }
+
+  #meRight {
+    justify-content: center;
+  }
+  #eltonLeft {
+    justify-content: center;
+  }
+
 }
