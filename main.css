@@ -33,7 +33,7 @@ a {
 
 #name {
   color: white;
-  font-size: 40vh;
+  font-size: 40vmin;
   font-family: arial;
   text-shadow: 4px 4px 0px #F4CC1C,
               5px 5px 0px #F4CC1C;
@@ -235,4 +235,52 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 400px) {
+
+  #name {
+    font-size: 20vw;
+  }
+
+  #me {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  #meLeft {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  #meLeft h1, h2, p{
+    text-align: center;
+  }
+
+  #meRight {
+    width: 100vw;
+  }
+
+  #elton {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  #eltonLeft {
+    width: 100vw;
+  }
+
+  #eltonRight {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0
+  }
 }

@@ -1,11 +1,15 @@
-html,
-body {
+html {
   margin: 0;
   background-image: url('gator.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
 }
 
 #splash {
@@ -38,7 +42,7 @@ a {
 
 #name {
   color: white;
-  font-size: 40vh;
+  font-size: 40vmin;
   font-family: arial;
   text-shadow: 4px 4px 0px #F4CC1C,
               5px 5px 0px #F4CC1C;
@@ -53,9 +57,6 @@ a {
   height: 10vh;
   display: flex;
   justify-content: center;
-}
-
-#main {
 }
 
 #foot {
@@ -78,7 +79,7 @@ a {
 }
 
 h2 {
-  font-size: 10vh;
+  font-size: 10vmin;
 }
 
 .row {
@@ -208,4 +209,33 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 400px) {
+  h2 {
+    text-align: center;
+  }
+
+  #name {
+    font-size: 20vw;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  #moon {
+    width: 80vw;
+  }
+
+  .card {
+    width: 80vw;
+  }
+
+  #main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
