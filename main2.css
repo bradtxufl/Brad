@@ -285,4 +285,8 @@ h2 {
     height: 13vmin;
   }
 
+  html {
+  background-image: url('gator.jpg');
+  background-color: gray;
+  }
 }
